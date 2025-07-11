@@ -44,7 +44,7 @@ const Booking = mongoose.model("Booking", bookingSchema);
 app.get("/categories", (req, res) => {
   const categories = [
     "Venue", "Dress", "Photography", "Makeup",
-    "catring", "Decoration", "Invitation", "Mehndi"
+    "catering", "Decoration", "Invitation", "Mehndi"
   ];
   res.json(categories);
 });
